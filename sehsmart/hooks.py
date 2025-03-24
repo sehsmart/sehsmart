@@ -249,7 +249,6 @@ fixtures = [
     "Workflow",
     "Client Script",
     "Print Format",
-    "Product",
-    "Parcel Stock"
+    "Product"
 
 ]
