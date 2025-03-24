@@ -1952,6 +1952,16 @@
  {
   "docstatus": 0,
   "doctype": "Product",
+  "modified": "2025-03-24 11:36:28.876157",
+  "name": "Te st 126587",
+  "product_code": "Te st 126587",
+  "product_name": "Test Git",
+  "r": null,
+  "test": null
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Product",
   "modified": "2024-12-01 10:24:41.862964",
   "name": "MD0526",
   "product_code": "MD0526",
