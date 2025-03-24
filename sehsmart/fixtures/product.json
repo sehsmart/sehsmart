@@ -1952,12 +1952,12 @@
  {
   "docstatus": 0,
   "doctype": "Product",
-  "modified": "2025-03-24 11:36:28.876157",
+  "modified": "2025-03-24 12:38:07.401758",
   "name": "Te st 126587",
   "product_code": "Te st 126587",
   "product_name": "Test Git",
-  "r": null,
-  "test": null
+  "r": "7890",
+  "test": "123456"
  },
  {
   "docstatus": 0,

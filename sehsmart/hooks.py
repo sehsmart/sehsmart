@@ -243,8 +243,14 @@ app_license = "mit"
 # }
 
 fixtures = [
-    "Custom Field",
-    "Property Setter",
+    {
+        "doctype": "Custom Field",
+        "filters": [["dt", "=", "Product"]]
+    },
+    {
+        "doctype": "Property Setter",
+        "filters": [["doc_type", "=", "Product"]]
+    },
     "Workflow",
     "Client Script",
     "Print Format",
