@@ -247,5 +247,6 @@ fixtures = [
     "Property Setter",
     "Workflow",
     "Client Script",
-    "Print Format"
+    "Print Format",
+    "Product"
 ]
