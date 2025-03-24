@@ -29096,7 +29096,7 @@
   "special": 0,
   "stock_card_type": "รายการวัสดุสิ้นเปลืองแม่บ้าน",
   "type": "รับเข้า",
-  "wf_pcs_state": "รับเข้าแล้ว"
+  "wf_pcs_state": "รออนุมัติ"
  },
  {
   "amended_from": null,
@@ -29136,7 +29136,7 @@
   "special": 0,
   "stock_card_type": "รายการวัสดุสิ้นเปลืองสนง.",
   "type": "รับเข้า",
-  "wf_pcs_state": "รับเข้าแล้ว"
+  "wf_pcs_state": "รออนุมัติ"
  },
  {
   "amended_from": null,
@@ -38366,7 +38366,7 @@
   "special": 1,
   "stock_card_type": null,
   "type": "เบิก/ใช้ไป",
-  "wf_pcs_state": "จัดของเรียบร้อยแล้ว"
+  "wf_pcs_state": "รออนุมัติ"
  },
  {
   "amended_from": null,
@@ -38746,7 +38746,7 @@
   "special": 1,
   "stock_card_type": null,
   "type": "เบิก/ใช้ไป",
-  "wf_pcs_state": "จัดของเรียบร้อยแล้ว"
+  "wf_pcs_state": "รออนุมัติ"
  },
  {
   "amended_from": null,
@@ -39007,7 +39007,7 @@
   "special": 1,
   "stock_card_type": null,
   "type": "เบิก/ใช้ไป",
-  "wf_pcs_state": "จัดของเรียบร้อยแล้ว"
+  "wf_pcs_state": "รออนุมัติ"
  },
  {
   "amended_from": null,
@@ -39081,7 +39081,7 @@
   "special": 1,
   "stock_card_type": null,
   "type": "เบิก/ใช้ไป",
-  "wf_pcs_state": "จัดของเรียบร้อยแล้ว"
+  "wf_pcs_state": "รออนุมัติ"
  },
  {
   "amended_from": null,
@@ -39121,7 +39121,7 @@
   "special": 1,
   "stock_card_type": null,
   "type": "เบิก/ใช้ไป",
-  "wf_pcs_state": "จัดของเรียบร้อยแล้ว"
+  "wf_pcs_state": "รออนุมัติ"
  },
  {
   "amended_from": null,
