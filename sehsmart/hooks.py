@@ -244,6 +244,7 @@ app_license = "mit"
 
 
 fixtures = [
+    "Custom Field",
     "Property Setter",
     "Workflow",
     "Client Script",
@@ -252,4 +253,3 @@ fixtures = [
     "Parcel Stock"
 
 ]
-
