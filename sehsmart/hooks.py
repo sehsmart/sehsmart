@@ -249,6 +249,6 @@ fixtures = [
     "Workflow",
     "Client Script",
     "Print Format",
-    "Product"
+    "DocType"
 
 ]
