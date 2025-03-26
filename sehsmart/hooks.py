@@ -247,6 +247,7 @@ fixtures = [
     {
         "dt": "DocType",
         "filters": [["name", "in", ["Product"]]]
-    }
+    },
+    "Product"
 
 ]
