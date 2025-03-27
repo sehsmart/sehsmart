@@ -246,7 +246,7 @@ app_license = "mit"
 fixtures = [
     {
         "dt": "DocType",
-        "filters": [["name", "in", ["Product"]]]
+        "filters": [["name", "in", ["Lens Type Eyeglasses"]]]
     }
 
 ]
