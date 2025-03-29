@@ -260,7 +260,8 @@ fixtures = [
         "dt": "DocType",
         "filters": [["name", "in", ["Eyesight"]]]
     },
-    "Client Script"
+    "Client Script",
+    "Workspace"
 
 
 ]
