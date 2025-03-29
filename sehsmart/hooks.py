@@ -246,22 +246,7 @@ app_license = "mit"
 fixtures = [
     {
         "dt": "DocType",
-        "filters": [["name", "in", ["Eyeglasses Information"]]]
-    },
-    {
-        "dt": "DocType",
-        "filters": [["name", "in", ["Lens Type Eyeglasses"]]]
-    },
-    {
-        "dt": "DocType",
         "filters": [["name", "in", ["Lens List Eyeglasses"]]]
-    },
-    {
-        "dt": "DocType",
-        "filters": [["name", "in", ["Eyesight"]]]
-    },
-    "Client Script",
-    "Workspace"
-
-
+    }
+    
 ]
