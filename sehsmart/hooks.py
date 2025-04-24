@@ -246,7 +246,18 @@ app_license = "mit"
 fixtures = [
     {
         "dt": "DocType",
-        "filters": [["name", "in", ["Eyeglasses Information"]]]
-    }
+        "filters": [["name", "in", ["polysomnogram"]]]
+    },
+
+    {
+        "dt": "Client Script",
+        "filters": [["name", "in", ["Polysomnogram", "Polysomnogram List"]]]
+    },
+
+    {
+        "dt": "Print Format",
+        "filters": [["name", "in", ["แบบทดสอบระดับความง่วงนอน/ซักประวัติ"]]]
+    },
+
     
 ]
