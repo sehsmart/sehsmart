@@ -259,5 +259,17 @@ fixtures = [
         "filters": [["name", "in", ["แบบทดสอบระดับความง่วงนอน/ซักประวัติ"]]]
     },
 
+    {
+        "dt": "Workflow"
+    },
+
+    {
+        "dt": "Workflow State"
+    },
+
+    {
+        "dt": "Workflow Action Master"
+    }
+
     
 ]
