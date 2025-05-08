@@ -251,12 +251,17 @@ fixtures = [
 
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["Polysomnogram", "Polysomnogram List"]]]
+        "filters": [["name", "in", ["Polysomnogram", "Polysomnogram"]]]
     },
 
     {
         "dt": "Print Format",
         "filters": [["name", "in", ["แบบทดสอบระดับความง่วงนอน/ซักประวัติ"]]]
+    },
+
+    {
+        "dt": "Client Script",
+        "filters": [["name", "in", ["Polysomnogram", "Polysomnogram List"]]]
     },
 
     {

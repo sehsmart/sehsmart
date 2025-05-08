@@ -2833,7 +2833,7 @@
   "doctype": "Workflow",
   "document_type": "polysomnogram",
   "is_active": 1,
-  "modified": "2025-04-23 08:55:40.700808",
+  "modified": "2025-05-04 14:14:42.907731",
   "name": "Polysomnogram",
   "override_status": 0,
   "send_email_alert": 0,
@@ -2941,6 +2941,21 @@
     "state": "เสร็จสิ้นกระบวนการให้บริการ",
     "update_field": null,
     "update_value": "เสร็จสิ้นกระบวนการให้บริการ",
+    "workflow_builder_id": null
+   },
+   {
+    "allow_edit": "Juksu",
+    "avoid_status_override": 0,
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Polysomnogram",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
+    "update_field": null,
+    "update_value": "ผลตรวจได้รับการอัปโหลดแล้ว",
     "workflow_builder_id": null
    }
   ],
@@ -3208,10 +3223,144 @@
     "parenttype": "Workflow",
     "state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
     "workflow_builder_id": null
+   },
+   {
+    "action": "อัปโหลดไฟล์",
+    "allow_self_approval": 1,
+    "allowed": "Juksu",
+    "condition": null,
+    "next_state": "ผลตรวจได้รับการอัปโหลดแล้ว",
+    "parent": "Polysomnogram",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "อัปโหลดไฟล์",
+    "allow_self_approval": 1,
+    "allowed": "Juksu",
+    "condition": null,
+    "next_state": "ผลตรวจได้รับการอัปโหลดแล้ว",
+    "parent": "Polysomnogram",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "เสร็จสิ้น",
+    "allow_self_approval": 1,
+    "allowed": "Juksu",
+    "condition": null,
+    "next_state": "เสร็จสิ้นกระบวนการให้บริการ",
+    "parent": "Polysomnogram",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "Clear",
+    "allow_self_approval": 1,
+    "allowed": "Juksu",
+    "condition": null,
+    "next_state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
+    "parent": "Polysomnogram",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
+    "workflow_builder_id": null
    }
   ],
   "workflow_data": null,
   "workflow_name": "Polysomnogram",
   "workflow_state_field": "wf_poly_state"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow",
+  "document_type": "Prescription Lenses",
+  "is_active": 0,
+  "modified": "2025-04-26 09:21:19.685213",
+  "name": "Prescription Lenses",
+  "override_status": 0,
+  "send_email_alert": 0,
+  "states": [
+   {
+    "allow_edit": "Juksu",
+    "avoid_status_override": 0,
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Prescription Lenses",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "ร่างเอกสาร",
+    "update_field": null,
+    "update_value": "ร่างเอกสาร",
+    "workflow_builder_id": null
+   },
+   {
+    "allow_edit": "Juksu",
+    "avoid_status_override": 0,
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Prescription Lenses",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "แก้ไข",
+    "update_field": null,
+    "update_value": "แก้ไข",
+    "workflow_builder_id": null
+   },
+   {
+    "allow_edit": "Juksu",
+    "avoid_status_override": 0,
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Prescription Lenses",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "state": "เสร็จสิ้น",
+    "update_field": null,
+    "update_value": "เสร็จสิ้น",
+    "workflow_builder_id": null
+   }
+  ],
+  "transitions": [
+   {
+    "action": "เสร็จสิ้น",
+    "allow_self_approval": 1,
+    "allowed": "Juksu",
+    "condition": null,
+    "next_state": "เสร็จสิ้น",
+    "parent": "Prescription Lenses",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "ร่างเอกสาร",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "แก้ไข",
+    "allow_self_approval": 1,
+    "allowed": "Juksu",
+    "condition": null,
+    "next_state": "ร่างเอกสาร",
+    "parent": "Prescription Lenses",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "state": "เสร็จสิ้น",
+    "workflow_builder_id": null
+   }
+  ],
+  "workflow_data": null,
+  "workflow_name": "Prescription Lenses",
+  "workflow_state_field": "wf_rl_state"
  }
 ]

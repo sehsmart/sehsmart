@@ -44,6 +44,20 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
+  "modified": "2025-05-03 09:56:14.045628",
+  "name": "อัปโหลดไฟล์",
+  "workflow_action_name": "อัปโหลดไฟล์"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-05-04 14:14:32.893097",
+  "name": "Clear",
+  "workflow_action_name": "Clear"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
   "modified": "2024-10-23 08:53:39.286804",
   "name": "ลบ",
   "workflow_action_name": "ลบ"

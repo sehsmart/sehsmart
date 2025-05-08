@@ -39,6 +39,15 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2025-05-04 14:21:29.514403",
+  "name": "ผลตรวจได้รับการอัปโหลดแล้ว",
+  "style": "Info",
+  "workflow_state_name": "ผลตรวจได้รับการอัปโหลดแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2025-04-17 15:45:26.364065",
   "name": "ไม่ทำ",
   "style": "Inverse",
