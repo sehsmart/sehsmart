@@ -664,5 +664,14 @@
   "name": "กำลังดำเนินการ",
   "style": "Primary",
   "workflow_state_name": "กำลังดำเนินการ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-21 11:49:43.690986",
+  "name": "เคลม",
+  "style": "Warning",
+  "workflow_state_name": "เคลม"
  }
 ]

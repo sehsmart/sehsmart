@@ -242,7 +242,6 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
-
 fixtures = [
     {
         "dt": "DocType",
@@ -256,7 +255,7 @@ fixtures = [
 
     {
         "dt": "Print Format",
-        "filters": [["name", "in", ["แบบทดสอบระดับความง่วงนอน/ซักประวัติ"]]]
+        "filters": [["name", "in", ["ใบรับรองแพทย์"]]]
     },
 
     {

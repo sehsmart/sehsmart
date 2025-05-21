@@ -19,6 +19,7 @@
     "parent": "Work Schedule",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอดำเนินการ",
     "update_field": null,
     "update_value": "รอดำเนินการ",
@@ -34,6 +35,7 @@
     "parent": "Work Schedule",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "กำลังดำเนินการ",
     "update_field": "",
     "update_value": "กำลังดำเนินการ",
@@ -49,6 +51,7 @@
     "parent": "Work Schedule",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ดำเนินการเสร็จสิ้น",
     "update_field": null,
     "update_value": "ดำเนินการเสร็จสิ้น",
@@ -64,6 +67,7 @@
     "parent": "Work Schedule",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -79,6 +83,7 @@
     "parent": "Work Schedule",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -94,6 +99,7 @@
     "parent": "Work Schedule",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -109,6 +115,7 @@
     "parent": "Work Schedule",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยืนยัน",
     "update_field": null,
     "update_value": "ยืนยัน",
@@ -125,6 +132,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอดำเนินการ",
     "workflow_builder_id": null
    },
@@ -137,6 +145,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "กำลังดำเนินการ",
     "workflow_builder_id": null
    },
@@ -149,6 +158,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "กำลังดำเนินการ",
     "workflow_builder_id": null
    },
@@ -161,6 +171,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ดำเนินการเสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -173,6 +184,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ดำเนินการเสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -185,6 +197,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -197,6 +210,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -209,6 +223,7 @@
     "parent": "Work Schedule",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ยกเลิก",
     "workflow_builder_id": null
    }
@@ -237,6 +252,7 @@
     "parent": "Purchase Orders",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ร่างเอกสาร",
     "update_field": null,
     "update_value": "ร่างเอกสาร",
@@ -252,6 +268,7 @@
     "parent": "Purchase Orders",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -267,6 +284,7 @@
     "parent": "Purchase Orders",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -282,6 +300,7 @@
     "parent": "Purchase Orders",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รับสินค้าแล้ว",
     "update_field": null,
     "update_value": "รับสินค้าแล้ว",
@@ -297,6 +316,7 @@
     "parent": "Purchase Orders",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -313,6 +333,7 @@
     "parent": "Purchase Orders",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ร่างเอกสาร",
     "workflow_builder_id": null
    },
@@ -325,6 +346,7 @@
     "parent": "Purchase Orders",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -337,6 +359,7 @@
     "parent": "Purchase Orders",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -349,6 +372,7 @@
     "parent": "Purchase Orders",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -361,6 +385,7 @@
     "parent": "Purchase Orders",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รับสินค้าแล้ว",
     "workflow_builder_id": null
    },
@@ -373,6 +398,7 @@
     "parent": "Purchase Orders",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รับสินค้าแล้ว",
     "workflow_builder_id": null
    },
@@ -385,6 +411,7 @@
     "parent": "Purchase Orders",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ยกเลิก",
     "workflow_builder_id": null
    }
@@ -413,6 +440,7 @@
     "parent": "Goods Receipt",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ร่างเอกสาร",
     "update_field": null,
     "update_value": "ร่างเอกสาร",
@@ -428,6 +456,7 @@
     "parent": "Goods Receipt",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -443,6 +472,7 @@
     "parent": "Goods Receipt",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -458,6 +488,7 @@
     "parent": "Goods Receipt",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -473,6 +504,7 @@
     "parent": "Goods Receipt",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รับเข้าพัสดุ",
     "update_field": null,
     "update_value": "รับเข้าพัสดุ",
@@ -489,6 +521,7 @@
     "parent": "Goods Receipt",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ร่างเอกสาร",
     "workflow_builder_id": null
    },
@@ -501,6 +534,7 @@
     "parent": "Goods Receipt",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -513,6 +547,7 @@
     "parent": "Goods Receipt",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -525,6 +560,7 @@
     "parent": "Goods Receipt",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -537,6 +573,7 @@
     "parent": "Goods Receipt",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รับเข้าพัสดุ",
     "workflow_builder_id": null
    }
@@ -565,6 +602,7 @@
     "parent": "IT Support",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอดำเนินการ",
     "update_field": null,
     "update_value": "รอดำเนินการ",
@@ -580,6 +618,7 @@
     "parent": "IT Support",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "กำลังดำเนินการ",
     "update_field": "",
     "update_value": "กำลังดำเนินการ",
@@ -595,6 +634,7 @@
     "parent": "IT Support",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ดำเนินการเสร็จสิ้น",
     "update_field": null,
     "update_value": "ดำเนินการเสร็จสิ้น",
@@ -610,6 +650,7 @@
     "parent": "IT Support",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -625,6 +666,7 @@
     "parent": "IT Support",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -640,6 +682,7 @@
     "parent": "IT Support",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -656,6 +699,7 @@
     "parent": "IT Support",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอดำเนินการ",
     "workflow_builder_id": null
    },
@@ -668,6 +712,7 @@
     "parent": "IT Support",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "กำลังดำเนินการ",
     "workflow_builder_id": null
    },
@@ -680,6 +725,7 @@
     "parent": "IT Support",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "กำลังดำเนินการ",
     "workflow_builder_id": null
    },
@@ -692,6 +738,7 @@
     "parent": "IT Support",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ดำเนินการเสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -704,6 +751,7 @@
     "parent": "IT Support",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ดำเนินการเสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -716,6 +764,7 @@
     "parent": "IT Support",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -728,6 +777,7 @@
     "parent": "IT Support",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    }
@@ -756,6 +806,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รออนุมัติ",
     "update_field": null,
     "update_value": "รออนุมัติ",
@@ -771,6 +822,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -786,6 +838,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอแก้ไข",
     "update_field": null,
     "update_value": "รอแก้ไข",
@@ -801,6 +854,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "อนุมัติเบิกของ",
     "update_field": null,
     "update_value": "อนุมัติเบิกของ",
@@ -816,6 +870,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -831,6 +886,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รับเข้าแล้ว",
     "update_field": null,
     "update_value": "รับเข้าแล้ว",
@@ -846,6 +902,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิกการเบิกของ",
     "update_field": null,
     "update_value": "ยกเลิกการเบิกของ",
@@ -861,6 +918,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "จัดของเรียบร้อยแล้ว",
     "update_field": null,
     "update_value": "จัดของเรียบร้อยแล้ว",
@@ -876,6 +934,7 @@
     "parent": "Parcel Stock",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ไม่อนุมัติ",
     "update_field": null,
     "update_value": "ไม่อนุมัติ",
@@ -892,6 +951,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -904,6 +964,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -916,6 +977,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -928,6 +990,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอแก้ไข",
     "workflow_builder_id": null
    },
@@ -940,6 +1003,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "แก้ไข",
     "workflow_builder_id": null
    },
@@ -952,6 +1016,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "อนุมัติเบิกของ",
     "workflow_builder_id": null
    },
@@ -964,6 +1029,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "จัดของเรียบร้อยแล้ว",
     "workflow_builder_id": null
    },
@@ -976,6 +1042,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "อนุมัติเบิกของ",
     "workflow_builder_id": null
    },
@@ -988,6 +1055,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -1000,6 +1068,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -1012,6 +1081,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "แก้ไข",
     "workflow_builder_id": null
    },
@@ -1024,6 +1094,7 @@
     "parent": "Parcel Stock",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รับเข้าแล้ว",
     "workflow_builder_id": null
    }
@@ -1052,6 +1123,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รออนุมัติ",
     "update_field": null,
     "update_value": "รออนุมัติ",
@@ -1067,6 +1139,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -1082,6 +1155,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอแก้ไข",
     "update_field": null,
     "update_value": "รอแก้ไข",
@@ -1097,6 +1171,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "อนุมัติการขอซื้อ",
     "update_field": null,
     "update_value": "อนุมัติการขอซื้อ",
@@ -1112,6 +1187,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -1127,6 +1203,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ซื้อของแล้ว",
     "update_field": null,
     "update_value": "ซื้อของแล้ว",
@@ -1142,6 +1219,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ประมาณการ",
     "update_field": null,
     "update_value": "ประมาณการ",
@@ -1157,6 +1235,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เบิกของแล้ว",
     "update_field": null,
     "update_value": "เบิกของแล้ว",
@@ -1172,6 +1251,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เปิดใบ PO แล้ว",
     "update_field": null,
     "update_value": "เปิดใบ PO แล้ว",
@@ -1188,6 +1268,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -1200,6 +1281,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -1212,6 +1294,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รออนุมัติ",
     "workflow_builder_id": null
    },
@@ -1224,6 +1307,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอแก้ไข",
     "workflow_builder_id": null
    },
@@ -1236,6 +1320,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "แก้ไข",
     "workflow_builder_id": null
    },
@@ -1248,6 +1333,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "อนุมัติการขอซื้อ",
     "workflow_builder_id": null
    },
@@ -1260,6 +1346,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "อนุมัติการขอซื้อ",
     "workflow_builder_id": null
    },
@@ -1272,6 +1359,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "อนุมัติการขอซื้อ",
     "workflow_builder_id": null
    },
@@ -1284,6 +1372,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "อนุมัติการขอซื้อ",
     "workflow_builder_id": null
    },
@@ -1296,6 +1385,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ประมาณการ",
     "workflow_builder_id": null
    },
@@ -1308,6 +1398,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ประมาณการ",
     "workflow_builder_id": null
    },
@@ -1320,6 +1411,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ซื้อของแล้ว",
     "workflow_builder_id": null
    },
@@ -1332,6 +1424,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ซื้อของแล้ว",
     "workflow_builder_id": null
    },
@@ -1344,6 +1437,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ซื้อของแล้ว",
     "workflow_builder_id": null
    },
@@ -1356,6 +1450,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เบิกของแล้ว",
     "workflow_builder_id": null
    },
@@ -1368,6 +1463,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ประมาณการ",
     "workflow_builder_id": null
    },
@@ -1380,6 +1476,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เปิดใบ PO แล้ว",
     "workflow_builder_id": null
    },
@@ -1392,6 +1489,7 @@
     "parent": "Parcel Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เปิดใบ PO แล้ว",
     "workflow_builder_id": null
    }
@@ -1420,6 +1518,7 @@
     "parent": "Doctor Room Khian Sa",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอผลตรวจ",
     "update_field": null,
     "update_value": "รอผลตรวจ",
@@ -1435,6 +1534,7 @@
     "parent": "Doctor Room Khian Sa",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ออกผลเบาหวานแล้ว",
     "update_field": null,
     "update_value": "ออกผลเบาหวานแล้ว",
@@ -1450,6 +1550,7 @@
     "parent": "Doctor Room Khian Sa",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิกมีการแก้ไขผลตรวจ",
     "update_field": null,
     "update_value": "ยกเลิกมีการแก้ไขผลตรวจ",
@@ -1466,6 +1567,7 @@
     "parent": "Doctor Room Khian Sa",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอผลตรวจ",
     "workflow_builder_id": null
    },
@@ -1478,6 +1580,7 @@
     "parent": "Doctor Room Khian Sa",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ออกผลเบาหวานแล้ว",
     "workflow_builder_id": null
    }
@@ -1506,6 +1609,7 @@
     "parent": "Visit Khian Sa",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอส่งเข้าห้องแพทย์",
     "update_field": null,
     "update_value": "รอส่งเข้าห้องแพทย์",
@@ -1521,6 +1625,7 @@
     "parent": "Visit Khian Sa",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ส่งเข้าห้องแพทย์เสร็จสิ้น",
     "update_field": null,
     "update_value": "ส่งเข้าห้องแพทย์เสร็จสิ้น",
@@ -1536,6 +1641,7 @@
     "parent": "Visit Khian Sa",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -1552,6 +1658,7 @@
     "parent": "Visit Khian Sa",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอส่งเข้าห้องแพทย์",
     "workflow_builder_id": null
    },
@@ -1564,6 +1671,7 @@
     "parent": "Visit Khian Sa",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอส่งเข้าห้องแพทย์",
     "workflow_builder_id": null
    }
@@ -1592,6 +1700,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอดำเนินการ",
     "update_field": null,
     "update_value": "รอดำเนินการ",
@@ -1607,6 +1716,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ประมาณการแล้ว",
     "update_field": null,
     "update_value": "ประมาณการแล้ว",
@@ -1622,6 +1732,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -1637,6 +1748,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -1652,6 +1764,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอแก้ไข",
     "update_field": null,
     "update_value": "รอแก้ไข",
@@ -1667,6 +1780,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -1683,6 +1797,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอดำเนินการ",
     "workflow_builder_id": null
    },
@@ -1695,6 +1810,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ประมาณการแล้ว",
     "workflow_builder_id": null
    },
@@ -1707,6 +1823,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ประมาณการแล้ว",
     "workflow_builder_id": null
    },
@@ -1719,6 +1836,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ประมาณการแล้ว",
     "workflow_builder_id": null
    },
@@ -1731,6 +1849,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอแก้ไข",
     "workflow_builder_id": null
    },
@@ -1743,6 +1862,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "แก้ไข",
     "workflow_builder_id": null
    },
@@ -1755,6 +1875,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -1767,6 +1888,7 @@
     "parent": "Final Purchase Request",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    }
@@ -1795,6 +1917,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ออกเลข AN",
     "update_field": null,
     "update_value": "ออกเลข AN",
@@ -1810,6 +1933,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก AN",
     "update_field": null,
     "update_value": "ยกเลิก AN",
@@ -1825,6 +1949,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รับผู้ป่วยเข้า Ward",
     "update_field": null,
     "update_value": "รับผู้ป่วยเข้า Ward",
@@ -1840,6 +1965,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Admitted",
     "update_field": null,
     "update_value": "Admitted",
@@ -1855,6 +1981,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิกการ Admitted",
     "update_field": null,
     "update_value": "ยกเลิกการ Admitted",
@@ -1870,6 +1997,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Discharge",
     "update_field": null,
     "update_value": "Discharge",
@@ -1885,6 +2013,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Complete Recovery",
     "update_field": null,
     "update_value": "Complete Recovery",
@@ -1900,6 +2029,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Improved",
     "update_field": null,
     "update_value": "Improved",
@@ -1915,6 +2045,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Not Improved",
     "update_field": null,
     "update_value": "Not Improved",
@@ -1930,6 +2061,7 @@
     "parent": "IPD",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Dead",
     "update_field": null,
     "update_value": "Dead",
@@ -1946,6 +2078,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ออกเลข AN",
     "workflow_builder_id": null
    },
@@ -1958,6 +2091,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ออกเลข AN",
     "workflow_builder_id": null
    },
@@ -1970,6 +2104,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ยกเลิก AN",
     "workflow_builder_id": null
    },
@@ -1982,6 +2117,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รับผู้ป่วยเข้า Ward",
     "workflow_builder_id": null
    },
@@ -1994,6 +2130,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Admitted",
     "workflow_builder_id": null
    },
@@ -2006,6 +2143,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Admitted",
     "workflow_builder_id": null
    },
@@ -2018,6 +2156,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ยกเลิกการ Admitted",
     "workflow_builder_id": null
    },
@@ -2030,6 +2169,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Discharge",
     "workflow_builder_id": null
    },
@@ -2042,6 +2182,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Discharge",
     "workflow_builder_id": null
    },
@@ -2054,6 +2195,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Discharge",
     "workflow_builder_id": null
    },
@@ -2066,6 +2208,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Discharge",
     "workflow_builder_id": null
    },
@@ -2078,6 +2221,7 @@
     "parent": "IPD",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "Discharge",
     "workflow_builder_id": null
    }
@@ -2091,7 +2235,7 @@
   "doctype": "Workflow",
   "document_type": "Eyeglasses Information",
   "is_active": 1,
-  "modified": "2025-04-01 13:41:58.574724",
+  "modified": "2025-05-21 11:53:06.497077",
   "name": "Eyeglasses Information",
   "override_status": 0,
   "send_email_alert": 0,
@@ -2106,6 +2250,7 @@
     "parent": "Eyeglasses Information",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "คงตู้",
     "update_field": null,
     "update_value": "คงตู้",
@@ -2121,6 +2266,7 @@
     "parent": "Eyeglasses Information",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ขายแล้ว",
     "update_field": null,
     "update_value": "ขายแล้ว",
@@ -2136,9 +2282,26 @@
     "parent": "Eyeglasses Information",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ส่งคืนบริษัท",
     "update_field": null,
     "update_value": "ส่งคืนบริษัท",
+    "workflow_builder_id": null
+   },
+   {
+    "allow_edit": "Optic Glasses Department",
+    "avoid_status_override": 0,
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Eyeglasses Information",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "send_email": 1,
+    "state": "เคลม",
+    "update_field": null,
+    "update_value": "เคลม",
     "workflow_builder_id": null
    }
   ],
@@ -2152,6 +2315,7 @@
     "parent": "Eyeglasses Information",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "คงตู้",
     "workflow_builder_id": null
    },
@@ -2164,6 +2328,7 @@
     "parent": "Eyeglasses Information",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ขายแล้ว",
     "workflow_builder_id": null
    },
@@ -2176,6 +2341,7 @@
     "parent": "Eyeglasses Information",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "คงตู้",
     "workflow_builder_id": null
    },
@@ -2188,7 +2354,34 @@
     "parent": "Eyeglasses Information",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ส่งคืนบริษัท",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "เคลม",
+    "allow_self_approval": 1,
+    "allowed": "Optic Glasses Department",
+    "condition": null,
+    "next_state": "เคลม",
+    "parent": "Eyeglasses Information",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "send_email_to_creator": 0,
+    "state": "คงตู้",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "คงตู้",
+    "allow_self_approval": 1,
+    "allowed": "Optic Glasses Department",
+    "condition": null,
+    "next_state": "คงตู้",
+    "parent": "Eyeglasses Information",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "send_email_to_creator": 0,
+    "state": "เคลม",
     "workflow_builder_id": null
    }
   ],
@@ -2216,6 +2409,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ร่างเอกสาร",
     "update_field": null,
     "update_value": "ร่างเอกสาร",
@@ -2231,6 +2425,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -2246,6 +2441,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -2261,6 +2457,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เปิดใบ PO แล้ว",
     "update_field": null,
     "update_value": "เปิดใบ PO แล้ว",
@@ -2276,6 +2473,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -2292,6 +2490,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ร่างเอกสาร",
     "workflow_builder_id": null
    },
@@ -2304,6 +2503,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -2316,6 +2516,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -2328,6 +2529,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    },
@@ -2340,6 +2542,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เปิดใบ PO แล้ว",
     "workflow_builder_id": null
    },
@@ -2352,6 +2555,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เปิดใบ PO แล้ว",
     "workflow_builder_id": null
    },
@@ -2364,6 +2568,7 @@
     "parent": "Memo Sheet Purchase And Parcel",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ยกเลิก",
     "workflow_builder_id": null
    }
@@ -2392,6 +2597,7 @@
     "parent": "OR",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ออกเลข OR",
     "update_field": null,
     "update_value": "ออกเลข OR",
@@ -2407,6 +2613,7 @@
     "parent": "OR",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รับผู้ป่วยเข้า OR",
     "update_field": null,
     "update_value": "รับผู้ป่วยเข้า OR",
@@ -2422,6 +2629,7 @@
     "parent": "OR",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "กำลังผ่าตัด",
     "update_field": null,
     "update_value": "กำลังผ่าตัด",
@@ -2437,6 +2645,7 @@
     "parent": "OR",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "สิ้นสุดการผ่าตัด",
     "update_field": null,
     "update_value": "สิ้นสุดการผ่าตัด",
@@ -2452,6 +2661,7 @@
     "parent": "OR",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -2467,6 +2677,7 @@
     "parent": "OR",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "Discharge",
     "update_field": null,
     "update_value": "Discharge",
@@ -2483,6 +2694,7 @@
     "parent": "OR",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ออกเลข OR",
     "workflow_builder_id": null
    },
@@ -2495,6 +2707,7 @@
     "parent": "OR",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รับผู้ป่วยเข้า OR",
     "workflow_builder_id": null
    },
@@ -2507,6 +2720,7 @@
     "parent": "OR",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "กำลังผ่าตัด",
     "workflow_builder_id": null
    },
@@ -2519,6 +2733,7 @@
     "parent": "OR",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "สิ้นสุดการผ่าตัด",
     "workflow_builder_id": null
    },
@@ -2531,6 +2746,7 @@
     "parent": "OR",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    }
@@ -2544,7 +2760,7 @@
   "doctype": "Workflow",
   "document_type": "Eyewear Transaction",
   "is_active": 1,
-  "modified": "2025-03-20 12:10:20.613401",
+  "modified": "2025-05-21 12:14:12.511618",
   "name": "Eyewear Transaction",
   "override_status": 0,
   "send_email_alert": 0,
@@ -2559,6 +2775,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ร่างเอกสาร",
     "update_field": null,
     "update_value": "ร่างเอกสาร",
@@ -2574,6 +2791,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ขายแล้ว",
     "update_field": null,
     "update_value": "ขายแล้ว",
@@ -2589,6 +2807,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "มัดจำ",
     "update_field": null,
     "update_value": "มัดจำ",
@@ -2604,6 +2823,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รับแว่นแล้ว",
     "update_field": null,
     "update_value": "รับแว่นแล้ว",
@@ -2619,6 +2839,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ส่งคืนบริษัท",
     "update_field": null,
     "update_value": "ส่งคืนบริษัท",
@@ -2634,6 +2855,23 @@
     "parent": "Eyewear Transaction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 1,
+    "state": "เคลม",
+    "update_field": null,
+    "update_value": "เคลม",
+    "workflow_builder_id": null
+   },
+   {
+    "allow_edit": "Optic Glasses Department",
+    "avoid_status_override": 0,
+    "doc_status": "0",
+    "is_optional_state": 0,
+    "message": null,
+    "next_action_email_template": null,
+    "parent": "Eyewear Transaction",
+    "parentfield": "states",
+    "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -2649,6 +2887,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ยกเลิก",
     "update_field": null,
     "update_value": "ยกเลิก",
@@ -2665,6 +2904,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ร่างเอกสาร",
     "workflow_builder_id": null
    },
@@ -2677,6 +2917,20 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
+    "state": "ร่างเอกสาร",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "เคลม",
+    "allow_self_approval": 1,
+    "allowed": "Optic Glasses Department",
+    "condition": null,
+    "next_state": "เคลม",
+    "parent": "Eyewear Transaction",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ร่างเอกสาร",
     "workflow_builder_id": null
    },
@@ -2689,6 +2943,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ขายแล้ว",
     "workflow_builder_id": null
    },
@@ -2701,6 +2956,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ขายแล้ว",
     "workflow_builder_id": null
    },
@@ -2713,6 +2969,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "มัดจำ",
     "workflow_builder_id": null
    },
@@ -2725,6 +2982,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ขายแล้ว",
     "workflow_builder_id": null
    },
@@ -2737,6 +2995,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "แก้ไข",
     "workflow_builder_id": null
    },
@@ -2749,6 +3008,7 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ขายแล้ว",
     "workflow_builder_id": null
    },
@@ -2761,7 +3021,34 @@
     "parent": "Eyewear Transaction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รับแว่นแล้ว",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "ยกเลิก",
+    "allow_self_approval": 1,
+    "allowed": "Optic Glasses Department",
+    "condition": null,
+    "next_state": "ยกเลิก",
+    "parent": "Eyewear Transaction",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "send_email_to_creator": 0,
+    "state": "ส่งคืนบริษัท",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "ยกเลิก",
+    "allow_self_approval": 1,
+    "allowed": "Optic Glasses Department",
+    "condition": null,
+    "next_state": "ยกเลิก",
+    "parent": "Eyewear Transaction",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "send_email_to_creator": 0,
+    "state": "เคลม",
     "workflow_builder_id": null
    }
   ],
@@ -2789,6 +3076,7 @@
     "parent": "Payment Deposit Deduction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ร่างเอกสาร",
     "update_field": null,
     "update_value": "ร่างเอกสาร",
@@ -2804,6 +3092,7 @@
     "parent": "Payment Deposit Deduction",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -2820,6 +3109,7 @@
     "parent": "Payment Deposit Deduction",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ร่างเอกสาร",
     "workflow_builder_id": null
    }
@@ -2833,7 +3123,7 @@
   "doctype": "Workflow",
   "document_type": "polysomnogram",
   "is_active": 1,
-  "modified": "2025-05-04 14:14:42.907731",
+  "modified": "2025-05-21 11:44:19.418986",
   "name": "Polysomnogram",
   "override_status": 0,
   "send_email_alert": 0,
@@ -2848,6 +3138,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ข้อมูลผู้รับบริการ",
     "update_field": null,
     "update_value": "ข้อมูลผู้รับบริการ",
@@ -2863,6 +3154,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "สนใจเข้ารับบริการ",
     "update_field": null,
     "update_value": "สนใจเข้ารับบริการ",
@@ -2878,6 +3170,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "รอตัดสินใจ",
     "update_field": null,
     "update_value": "รอตัดสินใจ",
@@ -2893,6 +3186,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ปฏิเสธเข้ารับบริการ",
     "update_field": null,
     "update_value": "ปฏิเสธเข้ารับบริการ",
@@ -2908,6 +3202,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "นัดหมายวันเข้ารับบริการ",
     "update_field": null,
     "update_value": "นัดหมายวันเข้ารับบริการ",
@@ -2923,6 +3218,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
     "update_field": null,
     "update_value": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
@@ -2938,6 +3234,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้นกระบวนการให้บริการ",
     "update_field": null,
     "update_value": "เสร็จสิ้นกระบวนการให้บริการ",
@@ -2953,6 +3250,7 @@
     "parent": "Polysomnogram",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
     "update_field": null,
     "update_value": "ผลตรวจได้รับการอัปโหลดแล้ว",
@@ -2969,6 +3267,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ข้อมูลผู้รับบริการ",
     "workflow_builder_id": ""
    },
@@ -2981,6 +3280,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ข้อมูลผู้รับบริการ",
     "workflow_builder_id": ""
    },
@@ -2993,6 +3293,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ข้อมูลผู้รับบริการ",
     "workflow_builder_id": ""
    },
@@ -3005,6 +3306,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "สนใจเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3017,6 +3319,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "นัดหมายวันเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3029,6 +3332,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
     "workflow_builder_id": null
    },
@@ -3041,6 +3345,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "สนใจเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3053,6 +3358,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "สนใจเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3065,6 +3371,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอตัดสินใจ",
     "workflow_builder_id": null
    },
@@ -3077,6 +3384,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอตัดสินใจ",
     "workflow_builder_id": null
    },
@@ -3089,6 +3397,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ปฏิเสธเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3101,6 +3410,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ปฏิเสธเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3113,6 +3423,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "สนใจเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3125,6 +3436,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "นัดหมายวันเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3137,6 +3449,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "นัดหมายวันเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3149,6 +3462,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอตัดสินใจ",
     "workflow_builder_id": null
    },
@@ -3161,6 +3475,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "รอตัดสินใจ",
     "workflow_builder_id": null
    },
@@ -3173,6 +3488,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "นัดหมายวันเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3185,6 +3501,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ปฏิเสธเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3197,6 +3514,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ปฏิเสธเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3209,6 +3527,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "นัดหมายวันเข้ารับบริการ",
     "workflow_builder_id": null
    },
@@ -3221,6 +3540,20 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
+    "state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
+    "workflow_builder_id": null
+   },
+   {
+    "action": "อัปโหลดไฟล์",
+    "allow_self_approval": 1,
+    "allowed": "Juksu",
+    "condition": null,
+    "next_state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
+    "parent": "Polysomnogram",
+    "parentfield": "transitions",
+    "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
     "workflow_builder_id": null
    },
@@ -3233,18 +3566,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
-    "state": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
-    "workflow_builder_id": null
-   },
-   {
-    "action": "อัปโหลดไฟล์",
-    "allow_self_approval": 1,
-    "allowed": "Juksu",
-    "condition": null,
-    "next_state": "ผลตรวจได้รับการอัปโหลดแล้ว",
-    "parent": "Polysomnogram",
-    "parentfield": "transitions",
-    "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
     "workflow_builder_id": null
    },
@@ -3257,6 +3579,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
     "workflow_builder_id": null
    },
@@ -3269,6 +3592,7 @@
     "parent": "Polysomnogram",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ผลตรวจได้รับการอัปโหลดแล้ว",
     "workflow_builder_id": null
    }
@@ -3297,6 +3621,7 @@
     "parent": "Prescription Lenses",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "ร่างเอกสาร",
     "update_field": null,
     "update_value": "ร่างเอกสาร",
@@ -3312,6 +3637,7 @@
     "parent": "Prescription Lenses",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "แก้ไข",
     "update_field": null,
     "update_value": "แก้ไข",
@@ -3327,6 +3653,7 @@
     "parent": "Prescription Lenses",
     "parentfield": "states",
     "parenttype": "Workflow",
+    "send_email": 0,
     "state": "เสร็จสิ้น",
     "update_field": null,
     "update_value": "เสร็จสิ้น",
@@ -3343,6 +3670,7 @@
     "parent": "Prescription Lenses",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "ร่างเอกสาร",
     "workflow_builder_id": null
    },
@@ -3355,6 +3683,7 @@
     "parent": "Prescription Lenses",
     "parentfield": "transitions",
     "parenttype": "Workflow",
+    "send_email_to_creator": 0,
     "state": "เสร็จสิ้น",
     "workflow_builder_id": null
    }
