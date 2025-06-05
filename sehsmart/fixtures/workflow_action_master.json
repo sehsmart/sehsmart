@@ -383,5 +383,12 @@
   "modified": "2025-05-21 11:52:15.780676",
   "name": "เคลม",
   "workflow_action_name": "เคลม"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-05-29 17:04:15.367780",
+  "name": "คืน",
+  "workflow_action_name": "คืน"
  }
 ]

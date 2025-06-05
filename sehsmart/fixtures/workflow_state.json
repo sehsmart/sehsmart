@@ -408,9 +408,9 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-04-17 16:40:46.809360",
+  "modified": "2025-06-01 15:28:50.869731",
   "name": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
-  "style": "Info",
+  "style": "Danger",
   "workflow_state_name": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ"
  },
  {
@@ -673,5 +673,14 @@
   "name": "เคลม",
   "style": "Warning",
   "workflow_state_name": "เคลม"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-29 17:02:15.233689",
+  "name": "คืน",
+  "style": "Danger",
+  "workflow_state_name": "คืน"
  }
 ]

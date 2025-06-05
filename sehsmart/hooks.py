@@ -243,24 +243,15 @@ app_license = "mit"
 # }
 
 fixtures = [
-    {
-        "dt": "DocType",
-        "filters": [["name", "in", ["polysomnogram"]]]
-    },
-
-    {
-        "dt": "Client Script",
-        "filters": [["name", "in", ["Polysomnogram", "Polysomnogram"]]]
-    },
 
     {
         "dt": "Print Format",
-        "filters": [["name", "in", ["ใบรับรองแพทย์"]]]
+        "filters": [["name", "in", ["ใบขายห้องแว่น", "ใบรับแว่น", "ใบรับแว่นโครงการเด็กไทยสายตาดี", "ใบคืน/ใบเคลม"]]]
     },
 
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["Polysomnogram", "Polysomnogram List"]]]
+        "filters": [["name", "in", ["PEyewear Transaction"]]]
     },
 
     {
