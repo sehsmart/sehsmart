@@ -245,25 +245,20 @@ app_license = "mit"
 fixtures = [
 
     {
+        "dt": "DocType",
+
+        "filters": [["name", "in", ["Benefits SEH"]]]
+
+    },
+
+    {
         "dt": "Print Format",
-        "filters": [["name", "in", ["ใบขายห้องแว่น", "ใบรับแว่น", "ใบรับแว่นโครงการเด็กไทยสายตาดี", "ใบคืน/ใบเคลม"]]]
+        "filters": [["name", "in", ["ใบตรวจสอบสิทธิ์สวัสดิการพนักงานโรงพยาบาลจักษุสุราษฎร์"]]]
     },
 
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["PEyewear Transaction"]]]
-    },
-
-    {
-        "dt": "Workflow"
-    },
-
-    {
-        "dt": "Workflow State"
-    },
-
-    {
-        "dt": "Workflow Action Master"
+        "filters": [["name", "in", ["Benefits SEH"]]]
     }
 
     

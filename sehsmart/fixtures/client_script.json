@@ -1,1 +1,13 @@
-[]
+[
+ {
+  "docstatus": 0,
+  "doctype": "Client Script",
+  "dt": "Benefits SEH",
+  "enabled": 1,
+  "modified": "2025-05-19 14:00:23.017009",
+  "module": null,
+  "name": "Benefits SEH",
+  "script": "frappe.ui.form.on('Benefits SEH', {\r\n    onload: function(frm) {\r\n        // ตั้งค่า default ปี พ.ศ.\r\n        const currentYearBE = new Date().getFullYear() + 543;\r\n        if (!frm.doc.yearly) {\r\n            frm.set_value('yearly', currentYearBE.toString());\r\n        }\r\n    },\r\n\r\n    fullname: function(frm) {\r\n        frappe.timeout(0.3).then(() => {\r\n            if (frm.doc.employee_id) {\r\n                frappe.call({\r\n                    method: \"erpnext.benefits_seh.get_previous_welfare_rights\",\r\n                    args: {\r\n                        employee_id: frm.doc.employee_id,\r\n                        current_docname: frm.doc.name || '',\r\n                        amount: frm.doc.amount || 0  // ส่ง amount ไปด้วย\r\n                    },\r\n                    callback: function(r) {\r\n                        if (r.message) {\r\n                            const remaining = flt(r.message.total_remaining_welfare_rights || 0);\r\n                            frm.set_value('total_remaining_welfare_rights', remaining);\r\n\r\n                        }\r\n                    }\r\n                });\r\n            }\r\n        });\r\n    }\r\n});\r\n\r\n\r\nfrappe.ui.form.on('Benefits SEH', {\r\n    validate: function(frm) {\r\n        const remaining = flt(frm.doc.total_remaining_welfare_rights || 0);\r\n        if (remaining === 0) {\r\n            frappe.msgprint({\r\n                title: __('ไม่สามารถบันทึกได้'),\r\n                message: __('สิทธิ์สวัสดิการคงเหลือจำนวน 0 บาท ไม่สามารถใชัสิทธิ์ได้'),\r\n                indicator: 'red'\r\n            });\r\n            frappe.validated = false;  // ❗ หยุดการบันทึก\r\n        }\r\n    }\r\n});\r\n\r\n\r\n\r\nfrappe.ui.form.on('Benefits SEH', {\r\n    amount_rights_used: function(frm) {\r\n        calculate_remaining_rights(frm);\r\n    }\r\n});\r\n\r\nfunction calculate_remaining_rights(frm) {\r\n    const total = flt(frm.doc.total_remaining_welfare_rights || 0);\r\n    const used = flt(frm.doc.amount_rights_used || 0);\r\n\r\n    let remaining = total - used;\r\n    let difference = 0;\r\n\r\n    if (remaining < 0) {\r\n        difference = Math.abs(remaining);  // หรือ: used - total\r\n        remaining = 0;\r\n    }\r\n\r\n    frm.set_value('remaining_welfare_rights', remaining);\r\n    frm.set_value('difference_paid', difference);\r\n}\r\n\r\n",
+  "view": "Form"
+ }
+]
