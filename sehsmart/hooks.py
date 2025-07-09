@@ -247,18 +247,13 @@ fixtures = [
     {
         "dt": "DocType",
 
-        "filters": [["name", "in", ["Benefits SEH"]]]
+        "filters": [["name", "in", ["Hospital Receipt Table", "Hospital Receipt"]]]
 
-    },
-
-    {
-        "dt": "Print Format",
-        "filters": [["name", "in", ["ใบตรวจสอบสิทธิ์สวัสดิการพนักงานโรงพยาบาลจักษุสุราษฎร์"]]]
     },
 
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["Benefits SEH"]]]
+        "filters": [["name", "in", ["Hospital Receipt"]]]
     }
 
     
