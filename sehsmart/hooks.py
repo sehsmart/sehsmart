@@ -247,14 +247,27 @@ fixtures = [
     {
         "dt": "DocType",
 
-        "filters": [["name", "in", ["Minutes Of The Meeting", "Minutes Of The Meeting Listname Table" , "Meeting Agenda Table3" , "Meeting Agenda Table2" , "Meeting Agenda Table1" , "Meeting Agenda Table" , "Meeting Participants Table"]]]
+        "filters": [["name", "in", ["Coupon Detail Juksu", "Search Coupon" , "Coupon Juksu" , "Coupon Juksu Table"]]]
 
     },
 
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["Minutes Of The Meeting"]]]
-    }
+        "filters": [["name", "in", ["Search Coupon", "Coupon Juksu"]]]
+    },
+
+    {
+        "dt": "Workflow",
+    },
+
+    {
+        "dt": "Workflow State",
+    },
+
+    {
+        "dt": "Web Form",
+        "filters": [["name", "in", ["search-coupon", "coupon-juksu"]]]
+    },
 
     
 ]
