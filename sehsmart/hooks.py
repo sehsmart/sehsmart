@@ -145,6 +145,9 @@ app_license = "mit"
 # 	}
 # }
 
+# custom_app/hooks.py
+
+
 # Scheduled Tasks
 # ---------------
 
@@ -174,9 +177,9 @@ app_license = "mit"
 # Overriding Methods
 # ------------------------------
 #
-# override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "sehsmart.event.get_events"
-# }
+
+
+
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
@@ -196,7 +199,11 @@ app_license = "mit"
 
 # Request Events
 # ----------------
-# before_request = ["sehsmart.utils.before_request"]
+
+
+
+
+
 # after_request = ["sehsmart.utils.after_request"]
 
 # Job Events
@@ -247,13 +254,17 @@ fixtures = [
     {
         "dt": "DocType",
 
-        "filters": [["name", "in", ["Minutes Of The Meeting", "Minutes Of The Meeting Listname Table" , "Meeting Participants Table" , "Meeting Agenda Table", "Meeting Agenda Table1", "Meeting Agenda Table2", "Meeting Agenda Table3"]]]
-
+        "filters":[["name","in",["Operative","Operative Table28","Operative Table29","Operative Table30","Operative Table31","Operative Table32","Operative Table33","Operative Table34","Operative Table35","Operative Table36","Operative Table37","Operative Table38","Operative Table39","Operative Table40","Operative Table41","Operative Table42","Operative Table43","Operative Table44","Operative Table45","Operative Note For","Operative Table1","Operative Table2","Operative Table3","Operative Table4","Operative Table5","Operative Table6","Operative Table7","Operative Table8","Operative Table9","Operative Table10","Operative Table11","Operative Table12","Operative Table13","Operative Table14","Operative Table15","Operative Table16","Operative Table17","Operative Table18","Operative Table19","Operative Table20","Operative Table21","Operative Table22","Operative Table23","Operative Table24","Operative Table25","Operative Table26","Operative Table27","Operative Retina Surgery","Operative Retina Surgery Table1","Operative Retina Surgery Table2","Operative Retina Surgery Table3","Operative Retina Surgery Table4","Operative Retina Surgery Table5","Operative Retina Surgery Table6","Operative Retina Surgery Table7","Operative Retina Surgery Table8","Operative Retina Surgery Table10","Operative Retina Surgery Table11","Eye Surgery Nursing Record","Eye Surgery Nursing Record Table1","Eye Surgery Nursing Record Table2","Eye Surgery Nursing Record Table3","Eye Surgery Nursing Record Table4","Eye Surgery Nursing Record Table5","Eye Surgery Nursing Record Table6","Eye Surgery Nursing Record Table7","Eye Surgery Nursing Record Table8","Eye Surgery Nursing Record Table10","Eye Surgery Nursing Record Table11","Eye Surgery Nursing Record Table12","Eye Surgery Nursing Record Table13","Eye Surgery Nursing Record Table14","Eye Surgery Nursing Record Table15","Eye Surgery Nursing Record Table16","Eye Surgery Nursing Record Table17","Eye Surgery Nursing Record Table18","Eye Surgery Nursing Record Table19","Eye Surgery Nursing Record Table20","Surgical Safety Checklist","EYE Medication Record","Outpatient Medication Table","Inpatient Medication Table","Operating Room Medication Table","Pre PRK Medication Table","Pre Trans PRK Medication Table","Pre FEMTO Relex Medication Table","Post Lasik Refractive Medication Table","General Surgical Nursing Record","General Surgical Nursing Record Table1","General Surgical Nursing Record Table2","General Surgical Nursing Record Table3","General Surgical Nursing Record Table4","General Surgical Nursing Record Table5","General Surgical Nursing Record Table6","General Surgical Nursing Record Table7","General Surgical Nursing Record Table8","General Surgical Nursing Record Table9","General Surgical Nursing Record Table10","General Surgical Nursing Record Table11","General Surgical Nursing Record Table12","General Surgical Nursing Record Table13","General Surgical Nursing Record Table14","General Surgical Nursing Record Table15","General Surgical Nursing Record Table16","General Surgical Nursing Record Table17","General Surgical Nursing Record Table18","Minutes Of The Meeting","Minutes Of The Meeting Listname Table","Meeting Participants Table","Meeting Agenda Table","Meeting Agenda Table1","Meeting Agenda Table2","Meeting Agenda Table3"]]]
     },
 
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["Minutes Of The Meeting"]]]
+        "filters": [["name", "in", ["General Surgical Nursing Record", "Surgical Safety Checklist", "Operative Retina Surgery", "Operative Note For", "Operative", "Eye Surgery Nursing Record"]]]
+    },
+
+    {
+        "dt": "Print Format",
+        "filters": [["name","in",["Description of Pars Plana Vitrectomy","Operative Note for Strabismus Surgery","Operative Note","Operative Record for Pterygium Surgery","department","Operative Retina Surgery","แบบฟอร์มทางการพยาบาลผู้ป่วย","Surgical Safety Checklist","Laser Refractive Surgery Safety Checklist","Surgery Safety Checklist FEMTO Cataract","Full Operative"]]]
     }
 
     
