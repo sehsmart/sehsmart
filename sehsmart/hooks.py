@@ -259,7 +259,7 @@ fixtures = [
 
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["General Surgical Nursing Record", "Surgical Safety Checklist", "Operative Retina Surgery", "Operative Note For", "Operative", "Eye Surgery Nursing Record"]]]
+        "filters": [["name", "in", ["General Surgical Nursing Record", "Surgical Safety Checklist", "Operative Retina Surgery", "Operative Note For", "Operative", "Eye Surgery Nursing Record", "Operative List", "Operative Note For List", "Operative Retina Surgery List", "Surgical Safety Checklist List", "Surgical Safety Checklist", "Eye Surgery Nursing Record List", "OR List"]]]
     },
 
     {
