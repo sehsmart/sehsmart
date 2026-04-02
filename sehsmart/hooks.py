@@ -250,15 +250,40 @@ app_license = "mit"
 # }
 
 fixtures = [
-
     {
         "dt": "DocType",
-
-        "filters":[["name","in",["Medical Equipment","Calibration History Table","Maintenance History Table"]]]
+        "filters": [
+            ["name", "in", [
+                "Medical Equipment",
+                "Calibration History Table",
+                "Maintenance History Table",
+                "Borrow Return OPD Card",
+                "Daily OPD Card",
+                "Daily OPD Card Table",
+                "CCTV Preventive Maintenance",
+                "CCTV Preventive Maintenance Table",
+                "CCTV Device Master",
+                "Preventive Maintenance",
+                "Preventive Maintenance Table",
+                "Job Application",
+                "Job Application Table",
+                "Job Application Work",
+                "Job Application Train",
+                "Job Application Reference",
+                "Property Loss Incident Report",
+                "Property Loss Incident Report Table1",
+                "Property Loss Incident Report Table2",
+                "Property Loss Incident Report Table3",
+                "CCTV Access Request Form",
+                "CCTV Access Request Form Table1",
+                "CCTV Access Request Form Table2"
+            ]]
+        ]
     },
-
     {
         "dt": "Client Script",
-        "filters": [["name", "in", ["Medical Equipment", "Medical Equipment List"]]]
+        "filters": [
+            ["name", "in", ["Borrow Return OPD Card", "Borrow Return OPD Card List", "Borrow Return OPD Card List", "CCTV Preventive Maintenance", "CCTV Access Request Form", "Job Application", "Preventive Maintenance", "Property Loss Incident Report", ""]]
+        ]
     }
 ]
