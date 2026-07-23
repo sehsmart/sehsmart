@@ -2,6 +2,15 @@
  {
   "docstatus": 0,
   "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-11-11 13:33:20.561810",
+  "name": "ตรวจรับงานแล้ว",
+  "style": "",
+  "workflow_state_name": "ตรวจรับงานแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
   "icon": "question-sign",
   "modified": "2024-07-04 14:29:43.768364",
   "name": "Pending",
@@ -16,15 +25,6 @@
   "name": "Approved",
   "style": "Success",
   "workflow_state_name": "Approved"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "remove",
-  "modified": "2024-07-04 14:29:43.769839",
-  "name": "Rejected",
-  "style": "Danger",
-  "workflow_state_name": "Rejected"
  },
  {
   "docstatus": 0,
@@ -210,28 +210,10 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-02-01 14:25:44.924422",
-  "name": "เบิกของแล้ว",
-  "style": "Primary",
-  "workflow_state_name": "เบิกของแล้ว"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2025-03-10 13:27:03.189336",
   "name": "ยกเลิก AN",
   "style": "Danger",
   "workflow_state_name": "ยกเลิก AN"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-03-20 12:07:32.855723",
-  "name": "ส่งคืนบริษัท",
-  "style": "Danger",
-  "workflow_state_name": "ส่งคืนบริษัท"
  },
  {
   "docstatus": 0,
@@ -345,24 +327,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-02-12 14:09:01.908659",
-  "name": "ออกเลข AN",
-  "style": "Info",
-  "workflow_state_name": "ออกเลข AN"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-01-30 12:36:33.250680",
-  "name": "ประมาณการ",
-  "style": "Warning",
-  "workflow_state_name": "ประมาณการ"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2025-06-01 15:28:50.869731",
   "name": "เข้ารับบริการแล้ว อยู่ระหว่างรอฟังผลตรวจ",
   "style": "Danger",
@@ -435,15 +399,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2024-11-02 09:38:26.351065",
-  "name": "อนุมัติการขอซื้อ",
-  "style": "Success",
-  "workflow_state_name": "อนุมัติการขอซื้อ"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2025-02-12 13:45:05.072454",
   "name": "รับผู้ป่วยเข้า Ward",
   "style": "Primary",
@@ -453,64 +408,10 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-02-27 13:53:34.855036",
-  "name": "Discharge",
-  "style": "Info",
-  "workflow_state_name": "Discharge"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2024-08-14 13:41:56.804994",
-  "name": "แก้ไข",
-  "style": "Danger",
-  "workflow_state_name": "แก้ไข"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2024-08-27 13:27:44.663170",
-  "name": "รับสินค้าแล้ว",
-  "style": "Primary",
-  "workflow_state_name": "รับสินค้าแล้ว"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2024-08-12 13:38:45.210805",
-  "name": "ยกเลิก",
-  "style": "Danger",
-  "workflow_state_name": "ยกเลิก"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2024-10-10 14:15:37.366315",
   "name": "รับเข้าแล้ว",
   "style": "Success",
   "workflow_state_name": "รับเข้าแล้ว"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2024-10-10 13:24:50.940428",
-  "name": "อนุมัติเบิกของ",
-  "style": "Success",
-  "workflow_state_name": "อนุมัติเบิกของ"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2024-10-10 14:28:54.942215",
-  "name": "รออนุมัติ",
-  "style": "Danger",
-  "workflow_state_name": "รออนุมัติ"
  },
  {
   "docstatus": 0,
@@ -543,15 +444,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2024-08-12 14:11:12.978036",
-  "name": "รอดำเนินการ",
-  "style": "Warning",
-  "workflow_state_name": "รอดำเนินการ"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2024-08-13 11:09:11.957365",
   "name": "ดำเนินการเสร็จสิ้น",
   "style": "Primary",
@@ -570,64 +462,10 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-05-21 11:49:43.690986",
-  "name": "เคลม",
-  "style": "Warning",
-  "workflow_state_name": "เคลม"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2025-05-29 17:02:15.233689",
   "name": "คืน",
   "style": "Danger",
   "workflow_state_name": "คืน"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-04-17 16:21:03.221863",
-  "name": "สนใจเข้ารับบริการ",
-  "style": "Primary",
-  "workflow_state_name": "สนใจเข้ารับบริการ"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-04-17 16:26:05.792836",
-  "name": "นัดหมายวันเข้ารับบริการ",
-  "style": "Info",
-  "workflow_state_name": "นัดหมายวันเข้ารับบริการ"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-03-15 10:16:24.267475",
-  "name": "มัดจำ",
-  "style": "Warning",
-  "workflow_state_name": "มัดจำ"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2025-03-15 10:14:45.835896",
-  "name": "รับแว่นแล้ว",
-  "style": "Success",
-  "workflow_state_name": "รับแว่นแล้ว"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
-  "modified": "2024-08-12 13:38:36.430170",
-  "name": "เสร็จสิ้น",
-  "style": "Success",
-  "workflow_state_name": "เสร็จสิ้น"
  },
  {
   "docstatus": 0,
@@ -651,15 +489,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-02-22 10:29:03.355736",
-  "name": "ขายแล้ว",
-  "style": "Success",
-  "workflow_state_name": "ขายแล้ว"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2025-08-06 15:49:05.971777",
   "name": "ใช้แล้ว",
   "style": "Danger",
@@ -678,10 +507,55 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-02-16 14:04:56.743418",
-  "name": "คงตู้",
+  "modified": "2026-06-30 09:07:29.146330",
+  "name": "รอการพิจารณาจากพัสดุ",
+  "style": "Primary",
+  "workflow_state_name": "รอการพิจารณาจากพัสดุ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-01 14:25:44.924422",
+  "name": "เบิกของแล้ว",
+  "style": "Primary",
+  "workflow_state_name": "เบิกของแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-20 12:07:32.855723",
+  "name": "ส่งคืนบริษัท",
+  "style": "Danger",
+  "workflow_state_name": "ส่งคืนบริษัท"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-27 13:53:34.855036",
+  "name": "Discharge",
   "style": "Info",
-  "workflow_state_name": "คงตู้"
+  "workflow_state_name": "Discharge"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-10 13:24:50.940428",
+  "name": "อนุมัติเบิกของ",
+  "style": "Success",
+  "workflow_state_name": "อนุมัติเบิกของ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-15 10:14:45.835896",
+  "name": "รับแว่นแล้ว",
+  "style": "Success",
+  "workflow_state_name": "รับแว่นแล้ว"
  },
  {
   "docstatus": 0,
@@ -696,9 +570,297 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2026-06-30 09:12:34.920312",
+  "name": "รอการพิจารณาจากเภสัชกร",
+  "style": "Info",
+  "workflow_state_name": "รอการพิจารณาจากเภสัชกร"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-12-03 10:05:13.114623",
+  "name": "เสียชีวิต",
+  "style": "Inverse",
+  "workflow_state_name": "เสียชีวิต"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-12 14:11:12.978036",
+  "name": "รอดำเนินการ",
+  "style": "Warning",
+  "workflow_state_name": "รอดำเนินการ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-05-21 11:49:43.690986",
+  "name": "เคลม",
+  "style": "Warning",
+  "workflow_state_name": "เคลม"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-03-15 10:16:24.267475",
+  "name": "มัดจำ",
+  "style": "Warning",
+  "workflow_state_name": "มัดจำ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-02-24 13:31:20.573882",
+  "name": "คืน OPD Card แล้ว",
+  "style": "Success",
+  "workflow_state_name": "คืน OPD Card แล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-11-11 14:32:16.224518",
+  "name": "แจ้งซ่อม",
+  "style": "Info",
+  "workflow_state_name": "แจ้งซ่อม"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-01-30 12:36:33.250680",
+  "name": "ประมาณการ",
+  "style": "Warning",
+  "workflow_state_name": "ประมาณการ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-14 13:41:56.804994",
+  "name": "แก้ไข",
+  "style": "Danger",
+  "workflow_state_name": "แก้ไข"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-22 10:29:03.355736",
+  "name": "ขายแล้ว",
+  "style": "Success",
+  "workflow_state_name": "ขายแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-16 14:04:56.743418",
+  "name": "คงตู้",
+  "style": "Info",
+  "workflow_state_name": "คงตู้"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-02-24 13:30:48.863295",
+  "name": "ยืม OPD Card",
+  "style": "Danger",
+  "workflow_state_name": "ยืม OPD Card"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-11-11 14:33:16.621819",
+  "name": "ตรวจรับการซ่อมแล้ว",
+  "style": "Inverse",
+  "workflow_state_name": "ตรวจรับการซ่อมแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-11-11 14:32:33.173645",
+  "name": "รับใบแจ้งซ่อมแล้ว",
+  "style": "Primary",
+  "workflow_state_name": "รับใบแจ้งซ่อมแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "remove",
+  "modified": "2024-07-04 14:29:43.769839",
+  "name": "Rejected",
+  "style": "Danger",
+  "workflow_state_name": "Rejected"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-12 14:09:01.908659",
+  "name": "ออกเลข AN",
+  "style": "Info",
+  "workflow_state_name": "ออกเลข AN"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-11-02 09:38:26.351065",
+  "name": "อนุมัติการขอซื้อ",
+  "style": "Success",
+  "workflow_state_name": "อนุมัติการขอซื้อ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-10-16 14:22:32.250065",
+  "name": "ติดตามอาการหลังใช้เครื่อง CPAP",
+  "style": "Warning",
+  "workflow_state_name": "ติดตามอาการหลังใช้เครื่อง CPAP"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-27 09:18:18.730735",
+  "name": "รอพบนักทัศนมาตร",
+  "style": "Primary",
+  "workflow_state_name": "รอพบนักทัศนมาตร"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-01-26 14:48:05.408465",
+  "name": "ค้างรับสินค้า",
+  "style": "Warning",
+  "workflow_state_name": "ค้างรับสินค้า"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-11-11 14:32:44.948720",
+  "name": "กำลังดำเนินการซ่อม",
+  "style": "Warning",
+  "workflow_state_name": "กำลังดำเนินการซ่อม"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-27 13:27:44.663170",
+  "name": "รับสินค้าแล้ว",
+  "style": "Primary",
+  "workflow_state_name": "รับสินค้าแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-10-10 14:28:54.942215",
+  "name": "รออนุมัติ",
+  "style": "Danger",
+  "workflow_state_name": "รออนุมัติ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-17 16:21:03.221863",
+  "name": "สนใจเข้ารับบริการ",
+  "style": "Primary",
+  "workflow_state_name": "สนใจเข้ารับบริการ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-06-30 09:13:05.124031",
+  "name": "อนุมัติ",
+  "style": "Success",
+  "workflow_state_name": "อนุมัติ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-16 10:58:53.845794",
+  "name": "รออนุญาต",
+  "style": "",
+  "workflow_state_name": "รออนุญาต"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-12 13:38:36.430170",
+  "name": "เสร็จสิ้น",
+  "style": "Success",
+  "workflow_state_name": "เสร็จสิ้น"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-04-17 16:26:05.792836",
+  "name": "นัดหมายวันเข้ารับบริการ",
+  "style": "Info",
+  "workflow_state_name": "นัดหมายวันเข้ารับบริการ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2024-08-14 14:30:04.372704",
   "name": "ร่างเอกสาร",
   "style": "Info",
   "workflow_state_name": "ร่างเอกสาร"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2024-08-12 13:38:45.210805",
+  "name": "ยกเลิก",
+  "style": "Danger",
+  "workflow_state_name": "ยกเลิก"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-16 10:49:59.401527",
+  "name": "ขออนุญาตใช้รถ",
+  "style": "",
+  "workflow_state_name": "ขออนุญาตใช้รถ"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-16 11:03:24.436334",
+  "name": "ไม่อนุญาต",
+  "style": "",
+  "workflow_state_name": "ไม่อนุญาต"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-08-16 11:03:03.565679",
+  "name": "อนุญาต",
+  "style": "",
+  "workflow_state_name": "อนุญาต"
  }
 ]

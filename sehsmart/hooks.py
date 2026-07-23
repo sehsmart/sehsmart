@@ -253,37 +253,35 @@ fixtures = [
     {
         "dt": "DocType",
         "filters": [
-            ["name", "in", [
-                "Medical Equipment",
-                "Calibration History Table",
-                "Maintenance History Table",
-                "Borrow Return OPD Card",
-                "Daily OPD Card",
-                "Daily OPD Card Table",
-                "CCTV Preventive Maintenance",
-                "CCTV Preventive Maintenance Table",
-                "CCTV Device Master",
-                "Preventive Maintenance",
-                "Preventive Maintenance Table",
-                "Job Application",
-                "Job Application Table",
-                "Job Application Work",
-                "Job Application Train",
-                "Job Application Reference",
-                "Property Loss Incident Report",
-                "Property Loss Incident Report Table1",
-                "Property Loss Incident Report Table2",
-                "Property Loss Incident Report Table3",
-                "CCTV Access Request Form",
-                "CCTV Access Request Form Table1",
-                "CCTV Access Request Form Table2"
-            ]]
-        ]
+            [
+                "name",
+                "in",
+                [
+                    "Quotation For Marketing",
+                    "Quotation For Marketing Table2",
+                    "Repair Notification",
+                    "Checklist Master",
+                    "Quotation For Marketing Table",
+                    "Repair Notification Table",
+                    "Repair Notification Assessment Table",
+                ],
+            ]
+        ],
     },
     {
         "dt": "Client Script",
         "filters": [
-            ["name", "in", ["Borrow Return OPD Card", "Borrow Return OPD Card List", "Borrow Return OPD Card List", "CCTV Preventive Maintenance", "CCTV Access Request Form", "Job Application", "Preventive Maintenance", "Property Loss Incident Report", ""]]
-        ]
-    }
+            ["dt", "in", ["Quotation For Marketing", "Repair Notification"]]
+        ],
+    },
+    {
+        "dt": "Workflow",
+        "filters": [["name", "in", ["Repair Notification"]]],
+    },
+    {
+        "dt": "Workflow State",
+    },
+    {
+        "dt": "Workflow Action Master",
+    },
 ]
