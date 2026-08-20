@@ -260,7 +260,6 @@ fixtures = [
                     "Inpatient Nutrition Data Form",
                     "Diet Menu Master",
                     "Underlying Condition",
-                    "IPD",
                     "Meal Assessment Detail",
                     "Meal History Detail",
                     "Underlying Condition Items",
