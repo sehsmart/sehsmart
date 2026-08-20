@@ -257,13 +257,15 @@ fixtures = [
                 "name",
                 "in",
                 [
-                    "Quotation For Marketing",
-                    "Quotation For Marketing Table2",
-                    "Repair Notification",
-                    "Checklist Master",
-                    "Quotation For Marketing Table",
-                    "Repair Notification Table",
-                    "Repair Notification Assessment Table",
+                    "Inpatient Nutrition Data Form",
+                    "Diet Menu Master",
+                    "Underlying Condition",
+                    "IPD",
+                    "Meal Assessment Detail",
+                    "Meal History Detail",
+                    "Underlying Condition Items",
+                    "Diet Menu Table",
+                    "Nutrition Order",
                 ],
             ]
         ],
@@ -271,12 +273,16 @@ fixtures = [
     {
         "dt": "Client Script",
         "filters": [
-            ["dt", "in", ["Quotation For Marketing", "Repair Notification"]]
+            ["dt", "in", ["Inpatient Nutrition Data Form", "List IPD", "IPD"]]
         ],
     },
     {
         "dt": "Workflow",
-        "filters": [["name", "in", ["Repair Notification"]]],
+        "filters": [["name", "in", ["Inpatient Nutrition Data Form"]]],
+    },
+    {
+        "dt": "Print Format",
+        "filters": [["name", "in", ["Diet Slip", "แบบบันทึกข้อมูลโภชนาการผู้ป่วยใน"]]],
     },
     {
         "dt": "Workflow State",

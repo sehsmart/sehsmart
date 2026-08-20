@@ -516,6 +516,15 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
+  "modified": "2026-08-19 11:57:50.474665",
+  "name": "ตรวจสอบแล้ว",
+  "style": "Info",
+  "workflow_state_name": "ตรวจสอบแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
   "modified": "2025-02-01 14:25:44.924422",
   "name": "เบิกของแล้ว",
   "style": "Primary",
@@ -705,15 +714,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-02-12 14:09:01.908659",
-  "name": "ออกเลข AN",
-  "style": "Info",
-  "workflow_state_name": "ออกเลข AN"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2024-11-02 09:38:26.351065",
   "name": "อนุมัติการขอซื้อ",
   "style": "Success",
@@ -727,6 +727,15 @@
   "name": "ติดตามอาการหลังใช้เครื่อง CPAP",
   "style": "Warning",
   "workflow_state_name": "ติดตามอาการหลังใช้เครื่อง CPAP"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2025-02-12 14:09:01.908659",
+  "name": "ออกเลข AN",
+  "style": "Info",
+  "workflow_state_name": "ออกเลข AN"
  },
  {
   "docstatus": 0,
@@ -786,19 +795,19 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-06-30 09:13:05.124031",
-  "name": "อนุมัติ",
-  "style": "Success",
-  "workflow_state_name": "อนุมัติ"
+  "modified": "2025-08-16 10:58:53.845794",
+  "name": "รออนุญาต",
+  "style": "",
+  "workflow_state_name": "รออนุญาต"
  },
  {
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2025-08-16 10:58:53.845794",
-  "name": "รออนุญาต",
-  "style": "",
-  "workflow_state_name": "รออนุญาต"
+  "modified": "2026-06-30 09:13:05.124031",
+  "name": "อนุมัติ",
+  "style": "Success",
+  "workflow_state_name": "อนุมัติ"
  },
  {
   "docstatus": 0,

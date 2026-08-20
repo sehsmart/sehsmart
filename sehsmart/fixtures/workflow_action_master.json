@@ -247,6 +247,13 @@
  {
   "docstatus": 0,
   "doctype": "Workflow Action Master",
+  "modified": "2026-08-19 11:33:03.735112",
+  "name": "ตรวจสอบแล้ว",
+  "workflow_action_name": "ตรวจสอบแล้ว"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
   "modified": "2025-03-01 08:26:13.410449",
   "name": "เปิดใบ PO แล้ว",
   "workflow_action_name": "เปิดใบ PO แล้ว"
