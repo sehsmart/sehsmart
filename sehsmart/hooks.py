@@ -258,35 +258,11 @@ fixtures = [
                 "in",
                 [
                     "Inpatient Nutrition Data Form",
-                    "Diet Menu Master",
-                    "Underlying Condition",
                     "Meal Assessment Detail",
                     "Meal History Detail",
-                    "Underlying Condition Items",
-                    "Diet Menu Table",
                     "Nutrition Order",
                 ],
             ]
         ],
-    },
-    {
-        "dt": "Client Script",
-        "filters": [
-            ["dt", "in", ["Inpatient Nutrition Data Form", "List IPD", "IPD"]]
-        ],
-    },
-    {
-        "dt": "Workflow",
-        "filters": [["name", "in", ["Inpatient Nutrition Data Form"]]],
-    },
-    {
-        "dt": "Print Format",
-        "filters": [["name", "in", ["Diet Slip", "แบบบันทึกข้อมูลโภชนาการผู้ป่วยใน"]]],
-    },
-    {
-        "dt": "Workflow State",
-    },
-    {
-        "dt": "Workflow Action Master",
-    },
+    }
 ]
