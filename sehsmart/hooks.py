@@ -257,12 +257,37 @@ fixtures = [
                 "name",
                 "in",
                 [
-                    "Inpatient Nutrition Data Form",
-                    "Meal Assessment Detail",
-                    "Meal History Detail",
-                    "Nutrition Order",
+                    "Floors And Rooms Master",
+                    "Cleaning Checklist For Rooms"
                 ],
             ]
         ],
-    }
+    },
+
+    {
+        "dt": "Client Script",
+        "filters": [
+            [
+                "name",
+                "in",
+                [
+                    "Floors And Rooms",
+                    "Cleaning Checklist For Rooms"
+                ],
+            ]
+        ],
+    },
+
+    {
+            "dt": "Print Format",
+            "filters": [
+                [
+                    "name",
+                    "in",
+                    [
+                        "แบบฟอร์มคิวอาร์โค้ด โปรแกรมทำความสะอาด"
+                    ],
+                ]
+            ],
+        }
 ]
